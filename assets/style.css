@@ -1,0 +1,33 @@
+
+.main-body{
+    background-color: rgb(209, 209, 209);
+}
+a{
+    text-decoration: none;
+}
+.content-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.content-cards .card{
+    padding: 50px 60px;
+    width: 18rem;
+   background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.357) 0px 0px 20px;
+   transition: all 0.2s;
+   color: rgb(14, 14, 14);
+}
+.content-cards .card:hover{    
+    background-image: url('https://vitalknowledge.com.br/wp-content/uploads/2021/01/FISIOTERAPIA.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: black 1px 0 40px;
+    transform: scale(1.08);
+}
+.content-cards .cards .card-title{
+    
+}
