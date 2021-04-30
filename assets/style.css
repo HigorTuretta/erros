@@ -18,15 +18,40 @@ a{
    box-shadow: rgba(0, 0, 0, 0.357) 0px 0px 20px;
    transition: all 0.2s;
    color: rgb(14, 14, 14);
+   text-transform: uppercase;
+   border-radius: 5px;
 }
 .content-cards .card:hover{    
-    background-image: url('https://vitalknowledge.com.br/wp-content/uploads/2021/01/FISIOTERAPIA.jpg');
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 3px;    
+    color: white;
+    text-shadow: black 1px 1px 0px;
+    transform: scale(1.08);
+}
+.content-cards .card-1:hover{
+    background-image: url('videos/fisioCardBg.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
-    text-shadow: black 1px 0 40px;
-    transform: scale(1.08);
+}
+.content-cards .card-2:hover{
+    background-image: url('videos/FarmaCardBg.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-cards .card-3:hover{
+    background-image: url('videos/NutriCardBg.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-cards .card-4:hover{
+    background-image: url('videos/EnferCardBg.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .content-cards .cards .card-title{
     
